@@ -173,7 +173,7 @@ export default {
 
         setTimeout(() => {
           this.$router.push({ path: `/schedule` })
-        }, 3000)
+        }, 1000)
       } catch (error) {
         console.log('🚀 ~ createSchedule ~ error:', error)
       }
